@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  font-family: sans-serif;
+  /* Created with https://www.css-gradient.com */
+  background: #909bdb;
+  background: -webkit-radial-gradient(left, #909bdb, #cce6ff);
+  background: -moz-radial-gradient(left, #909bdb, #cce6ff);
+  background: radial-gradient(to right, #909bdb, #cce6ff);
 }
 
 .App-logo {

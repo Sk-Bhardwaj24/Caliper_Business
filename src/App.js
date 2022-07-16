@@ -1,7 +1,13 @@
 import "./App.css";
-
+import { Hero } from "./components/Hero";
+import { Nabvar } from "./components/Navbar";
 function App() {
-  return <div className="App">jjjjjjjjjjjjjjjj</div>;
+  return (
+    <div className="App">
+      <Nabvar />
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
