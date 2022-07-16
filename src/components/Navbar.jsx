@@ -1,5 +1,6 @@
-import nav from "./nav.module.css";
+import nav from "../Style/nav.module.css";
 import navimage from "../Image/navimage.png";
+
 const Nabvar = () => {
   return (
     <div className={nav.navbar}>
