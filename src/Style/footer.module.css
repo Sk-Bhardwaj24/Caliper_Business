@@ -1,10 +1,11 @@
 .f1 {
+  margin-top: 80px;
   display: flex;
   flex-direction: row;
   margin-left: 10vw;
 }
 .f1 > div {
-  margin: 20px 4vw;
+  margin: 40px 3.5vw;
 }
 .f {
   background-color: black;
@@ -14,4 +15,7 @@
 .f1 > div > p {
   line-height: 10px;
   cursor: pointer;
+}
+.f1 > div > p:hover {
+  color: blue;
 }

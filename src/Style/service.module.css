@@ -1,0 +1,94 @@
+.sec {
+  text-align: center;
+  background-color: white;
+}
+.s1 {
+  background-image: url("../Image/serbac.jpg");
+  color: white;
+  height: 700px;
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.s1 > p {
+  line-height: 10px;
+}
+.s1D {
+  max-width: 58vw;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.s1D > div {
+  width: 275px;
+  height: 200px;
+  border: 10px solid rgb(120, 136, 181);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-color: rgb(120, 136, 181);
+  background-position: 50% 20%;
+}
+.s1d {
+  background-image: url("../Image/ser1.png");
+}
+.s2d {
+  background-image: url("../Image/ser2.png");
+}
+.s3d {
+  background-image: url("../Image/ser3.png");
+}
+.s4d {
+  background-image: url("../Image/ser4.png");
+}
+.s5d {
+  background-image: url("../Image/ser5.png");
+}
+.s6d {
+  background-image: url("../Image/ser6.png");
+}
+.s1D > div:hover {
+  border: 10px solid rgb(154 166 197);
+  transition: 0.5s ease;
+}
+.s1d > p,
+.s2d > p,
+.s3d > p,
+.s4d > p,
+.s5d > p,
+.s6d > p {
+  font-weight: bold;
+  margin-top: 50%;
+}
+.s1D h4 {
+  line-height: 0px;
+}
+.sec1 {
+  font-weight: bold;
+  color: rgb(0 23 77);
+}
+.ss1 {
+  width: 65vw;
+  margin: auto;
+}
+.ssp {
+  font-family: Rubik;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(80 80 80);
+  font-size: 15px;
+  text-align: left;
+}
+.ss2 {
+  width: 65vw;
+  margin: auto;
+  display: flex;
+}
+.ss2 > div {
+  text-align: left;
+}
+.ss2 img {
+  width: 350px;
+}
