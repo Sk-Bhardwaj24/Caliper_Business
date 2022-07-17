@@ -107,6 +107,46 @@ const Service = () => {
               Make suitable structure for your commercial farm
             </p>
           </div>
+          <div>
+            <img src={ser7} alt="farming" />
+            <h2 className={styles.sec1}> Site Feasibility</h2>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              {" "}
+              Grow crops successfully
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Farm forecasting for better performance & ROI
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Area Study & Market Research
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Equipment to grow crops
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Sales & Marketing Support
+            </p>
+          </div>
+          <div>
+            <img src={ser8} alt="farming" />
+            <h2 className={styles.sec1}>Technical Feasibility</h2>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              {" "}
+              IoT Automation
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Land Levelling
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Examine Electricity & Water Availability
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Material Required to setup farm
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Make suitable structure for your commercial farm
+            </p>
+          </div>
         </div>
       </div>
       <p className={styles.ssp}></p>
