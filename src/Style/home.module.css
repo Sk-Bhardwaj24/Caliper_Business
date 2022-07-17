@@ -5,6 +5,7 @@
   width: 90vw;
   height: 500px;
   background-image: url("../Image/bac.webp");
+
   margin: auto;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -55,14 +56,14 @@
   font-size: 60px;
   color: rgb(50, 47, 47);
   font-weight: bold;
-  border: 1px solid black;
+
   height: 400px;
   margin: auto;
 }
 .home_div2 {
   width: 60vw;
   margin: auto;
-  border: 1px solid red;
+
   font-family: monospace;
 }
 .home_div2h {

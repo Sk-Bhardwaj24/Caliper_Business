@@ -1,0 +1,17 @@
+.f1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10vw;
+}
+.f1 > div {
+  margin: 20px 4vw;
+}
+.f {
+  background-color: black;
+  color: white;
+  height: 250px;
+}
+.f1 > div > p {
+  line-height: 10px;
+  cursor: pointer;
+}

@@ -13,7 +13,7 @@ const Nabvar = () => {
         </div>
         <div className={nav.links}>
           <div>Home</div>
-          <div>Shopping</div>
+          <div>Service</div>
           <div>Contact Us</div>
           <div>About</div>
         </div>
