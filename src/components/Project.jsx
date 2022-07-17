@@ -154,6 +154,26 @@ const Project = () => {
         </div>
       </div>{" "}
       {/* ****************** */}
+      <div className={styles.pr1d}>
+        <div>
+          <img src={sec20} alt="farming" />
+        </div>
+        <div>
+          <h2 className={service.sec1} style={{ textAlign: "left" }}>
+            Dutch Bucket
+          </h2>
+          <p className={service.ssp}>
+            In Deep Water Culture the roots are kept in the nutrient-rich
+            solution water for 24/7. This system is highly suited for large
+            crops or especially for those with big roots. This system is not so
+            costly & less complicated to use.
+          </p>
+          <p className={service.ssp}>
+            In this you can grow crops like head lettuce, kale, okra, large
+            leafy greens, etc.
+          </p>
+        </div>
+      </div>{" "}
       <p className={service.ssp}></p>
       <h2 className={service.sec1} style={{ textAlign: "left" }}></h2>
     </div>
