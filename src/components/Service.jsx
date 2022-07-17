@@ -3,6 +3,7 @@ import styles from "../Style/service.module.css";
 import ser7 from "../Image/ser7.jpeg";
 import ser8 from "../Image/ser8.jpeg";
 import ser9 from "../Image/ser8.jpeg";
+import Fotter from "./Fotter";
 const Service = () => {
   return (
     <div className={styles.sec}>
@@ -107,26 +108,7 @@ const Service = () => {
               Make suitable structure for your commercial farm
             </p>
           </div>
-          <div>
-            <img src={ser7} alt="farming" />
-            <h2 className={styles.sec1}> Site Feasibility</h2>
-            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              {" "}
-              Grow crops successfully
-            </p>
-            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Farm forecasting for better performance & ROI
-            </p>
-            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Area Study & Market Research
-            </p>
-            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Equipment to grow crops
-            </p>
-            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Sales & Marketing Support
-            </p>
-          </div>
+
           <div>
             <img src={ser8} alt="farming" />
             <h2 className={styles.sec1}>Technical Feasibility</h2>
@@ -138,18 +120,80 @@ const Service = () => {
               Irrigation and Fertigation Unit
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Examine Electricity & Water Availability
+              Training to manage EC, pH, TDS, etc.
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Material Required to setup farm
+              Climate control management
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Make suitable structure for your commercial farm
+              Crop cycle management training
             </p>
           </div>
         </div>
       </div>
+      <div className={styles.ssh}>
+        <h1 className={styles.sec1}>Project Design</h1>
+        <div className={styles.ssh2}>
+          <div className={styles.sps1}>
+            <h3>Orientation</h3>
+            <p className={styles.sssp}>
+              The orientation of the farm is a solution involving wind
+              direction, location flexibility, and temperature control type. The
+              Farm design should be based on scientific principles that allow
+              for a protected environment for plant development.
+            </p>
+          </div>
+          <div className={styles.sps2}>
+            <h3>Wind Effects</h3>
+            <p className={styles.sssp}>
+              The polyhouse structure should be able to withstand the wind
+              velocity of 110 km/h to avoid the future damage and to enable
+              adequate structural safety.
+            </p>
+          </div>
+          <div className={styles.sps3}>
+            <h3>Polyhouse Structure Design</h3>
+            <p className={styles.sssp}>
+              The components like size, spacing, height and materials used for
+              the polyhouse structure must be designed specifically to ensure
+              the required standards of safety, functionality, structural
+              stability, and compatibility of the farm.
+            </p>
+          </div>
+          <div className={styles.sps4}>
+            {" "}
+            <h3>Irrigation and Fertigation System Installation</h3>
+            <p className={styles.sssp}>
+              The Automatic Dosing System (ADS) is installed for the real time
+              nutrition measurement and provides the exact amount of nutrition
+              rich solution directly to the roots of the crop to get a
+              productive yield with less effort.
+            </p>
+          </div>
+          <div className={styles.sps5}>
+            {" "}
+            <h3>Crop Selection</h3>
+            <p className={styles.sssp}>
+              Crop selection is mainly driven by the market demand and
+              Prioritizing output that is focused on superior quality by
+              combining practical experience with cutting-edge scientific
+              technology.
+            </p>
+          </div>
+          <div className={styles.sps6}>
+            {" "}
+            <h3>Expert Consultation</h3>
+            <p className={styles.sssp}>
+              Consultancy support will be provided to understand the current
+              scenario, future prospects, investment, ROI, and other relevant
+              things regarding modern farming technique with our experienced
+              industry experts.
+            </p>
+          </div>
+        </div>
+      </div>{" "}
       <p className={styles.ssp}></p>
+      <Fotter />
     </div>
   );
 };
