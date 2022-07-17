@@ -3,6 +3,9 @@
   margin: auto;
   text-align: center;
 }
+.pro {
+  background-color: white;
+}
 
 .pr1d {
   display: grid;
