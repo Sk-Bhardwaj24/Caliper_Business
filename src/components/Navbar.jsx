@@ -1,6 +1,17 @@
 import nav from "../Style/nav.module.css";
 import navimage from "../Image/navimage.png";
-
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+const Linkwrapper = styled(Link)`
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  &:hover {
+    color: black;
+    text-decoration: underline;
+    /* background-color: black; */
+  }
+`;
 const Nabvar = () => {
   return (
     <div className={nav.navbar}>
@@ -12,10 +23,19 @@ const Nabvar = () => {
           </sub>
         </div>
         <div className={nav.links}>
-          <div>Home</div>
-          <div>Service</div>
-          <div>Contact Us</div>
-          <div>About</div>
+          <div>
+            {" "}
+            <Linkwrapper to="/">Home</Linkwrapper>
+          </div>
+          <div>
+            {" "}
+            <Linkwrapper to="/service">Service</Linkwrapper>
+          </div>
+          <div>
+            {" "}
+            <Linkwrapper to="/contact">Contact Us</Linkwrapper>
+          </div>
+          
         </div>
       </div>
     </div>

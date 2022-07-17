@@ -6,7 +6,7 @@ import ind from "../Image/ind.webp";
 import dwc from "../Image/dwc.webp";
 import dut from "../Image/dut.jpg";
 import zip from "../Image/zip.jpg";
-import Fotter from "./Fotter";
+
 const Home = () => {
   return (
     <div className={home.home}>
@@ -207,7 +207,6 @@ const Home = () => {
           customer support.
         </p>
       </div>
-      <Fotter />
     </div>
   );
 };

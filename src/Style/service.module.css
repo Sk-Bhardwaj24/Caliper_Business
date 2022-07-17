@@ -34,6 +34,7 @@
 .s1D > div:hover {
   background-position: 50% 5%;
   transition: 0.1s ease-in-out;
+  cursor: pointer;
 }
 .s1d {
   background-image: url("../Image/ser1.png");
@@ -70,6 +71,7 @@
   line-height: 0px;
 }
 .sec1 {
+  margin-top: 80px;
   font-weight: bold;
   color: rgb(0 23 77);
 }

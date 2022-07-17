@@ -1,0 +1,112 @@
+.con1 {
+  margin: 0px !important;
+  background-image: url("../Image/con2.jpeg");
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: cover;
+  background-position: 0px -px;
+  padding: 60px;
+}
+.con1 input {
+  background-color: transparent;
+  width: 40vw;
+  height: 40px;
+  border: 2px solid red;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+.btn {
+  border: 2px solid red;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+  width: 40vw;
+  height: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.btn:hover {
+  background-color: rgb(232, 227, 227);
+  color: rgb(10, 10, 10);
+}
+/* .con1 input:hover,
+.con1 textarea:hover {
+  background-color: rgb(11, 11, 11);
+} */
+.con1 input:focus {
+  outline: none;
+}
+.con1 textarea:focus,
+.con1 input:focus {
+  outline: none;
+}
+.ch1 {
+  margin-top: 40px;
+  font-size: 35px;
+  text-align: center;
+  font-size: 45px;
+  background: -webkit-linear-gradient(rgb(149, 39, 39), rgb(144, 199, 24));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cd1 {
+  margin-top: -40px;
+}
+.txt1 {
+  margin-left: 40px;
+  width: 40vw;
+  height: 150px;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid red;
+}
+.ch3 {
+  color: white;
+  margin-left: 40px;
+  font-size: 40px;
+  font-family: monospace;
+  line-height: 5px;
+}
+textarea::-webkit-input-placeholder {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+textarea:-ms-input-placeholder {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+textarea::placeholder {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

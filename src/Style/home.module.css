@@ -1,11 +1,12 @@
 .home {
   margin: 0;
+  margin-bottom: 80px;
 }
 .home_div {
   /* width: 100vw; */
 
   height: 600px;
-  background-image: url("../Image/bac.webp");
+  background-image: url("../Image/bac3.webp");
   backdrop-filter: blur(5px);
   margin: auto;
   margin-top: -50px;

@@ -3,7 +3,7 @@ import styles from "../Style/service.module.css";
 import ser7 from "../Image/ser7.jpeg";
 import ser8 from "../Image/ser8.jpeg";
 import ser9 from "../Image/ser8.jpeg";
-import Fotter from "./Fotter";
+
 import Project from "./Project";
 const Service = () => {
   return (
@@ -195,7 +195,6 @@ const Service = () => {
       </div>{" "}
       {/* <p className={styles.ssp}></p> */}
       <Project />
-      <Fotter />
     </div>
   );
 };
