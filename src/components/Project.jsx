@@ -15,6 +15,7 @@ const Project = () => {
     <div className={styles.pro}>
       <div className={styles.pr1}>
         <h1 className={service.sec1}>Our Projects</h1>
+        <div className={service.dd}></div>
         <h2 className={service.sec1} style={{ textAlign: "left" }}>
           Polyhouse Structure Development
         </h2>

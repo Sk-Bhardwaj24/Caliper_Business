@@ -54,6 +54,7 @@ const Service = () => {
       </div>
       <div className={styles.ss1}>
         <h1 className={styles.sec1}>Our Process</h1>
+        <div className={styles.dd}></div>
         <p className={styles.ssp}>
           From Site Assessment to installing state-of –the-art-technologies And
           from raising full grown crops to branding and sales, Caliper Business
@@ -134,6 +135,7 @@ const Service = () => {
       </div>
       <div className={styles.ssh}>
         <h1 className={styles.sec1}>Project Design</h1>
+        <div className={styles.dd}></div>
         <div className={styles.ssh2}>
           <div className={styles.sps1}>
             <h3>Orientation</h3>
