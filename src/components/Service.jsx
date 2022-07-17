@@ -71,7 +71,7 @@ const Service = () => {
             <img src={ser7} alt="farming" />
             <h3 className={styles.sec1}> Site Feasibility</h3>
             <p className={styles.ssp}> Study Locality</p>
-            <p className={styles.ssp}></p>
+            <p className={styles.ssp}>Land Levelling</p>
             <p className={styles.ssp}></p>
             <p className={styles.ssp}></p>
             <p className={styles.ssp}></p>
