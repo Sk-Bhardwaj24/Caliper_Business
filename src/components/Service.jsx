@@ -135,7 +135,7 @@ const Service = () => {
               IoT Automation
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Land Levelling
+              Irrigation and Fertigation Unit
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
               Examine Electricity & Water Availability
