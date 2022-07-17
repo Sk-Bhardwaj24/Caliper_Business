@@ -84,7 +84,7 @@ const Service = () => {
               Equipment to grow crops
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Make suitable structure for your commercial farm
+              Sales & Marketing Support
             </p>
           </div>
           <div>
