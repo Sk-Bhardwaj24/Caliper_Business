@@ -75,7 +75,7 @@ const Service = () => {
               Grow crops successfully
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Land Levelling
+              Farm forecasting for better performance & ROI
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
               Examine Electricity & Water Availability
