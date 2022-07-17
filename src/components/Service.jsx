@@ -69,10 +69,10 @@ const Service = () => {
         <div className={styles.ss2}>
           <div>
             <img src={ser7} alt="farming" />
-            <h3 className={styles.sec1}> Site Feasibility</h3>
+            <h2 className={styles.sec1}> Site Feasibility</h2>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
               {" "}
-              Study Locality
+              Grow crops successfully
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
               Land Levelling
@@ -89,7 +89,7 @@ const Service = () => {
           </div>
           <div>
             <img src={ser8} alt="farming" />
-            <h3 className={styles.sec1}> Site Feasibility</h3>
+            <h2 className={styles.sec1}>Financial Feasibility</h2>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
               {" "}
               Study Locality
