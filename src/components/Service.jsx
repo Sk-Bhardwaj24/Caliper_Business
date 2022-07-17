@@ -78,7 +78,7 @@ const Service = () => {
               Farm forecasting for better performance & ROI
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
-              Examine Electricity & Water Availability
+              Area Study & Market Research
             </p>
             <p className={styles.ssp} style={{ marginLeft: "15px" }}>
               Material Required to setup farm
