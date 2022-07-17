@@ -70,11 +70,42 @@ const Service = () => {
           <div>
             <img src={ser7} alt="farming" />
             <h3 className={styles.sec1}> Site Feasibility</h3>
-            <p className={styles.ssp}> Study Locality</p>
-            <p className={styles.ssp}>Land Levelling</p>
-            <p className={styles.ssp}></p>
-            <p className={styles.ssp}></p>
-            <p className={styles.ssp}></p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              {" "}
+              Study Locality
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Land Levelling
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Examine Electricity & Water Availability
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Material Required to setup farm
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Make suitable structure for your commercial farm
+            </p>
+          </div>
+          <div>
+            <img src={ser8} alt="farming" />
+            <h3 className={styles.sec1}> Site Feasibility</h3>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              {" "}
+              Study Locality
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Land Levelling
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Examine Electricity & Water Availability
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Material Required to setup farm
+            </p>
+            <p className={styles.ssp} style={{ marginLeft: "15px" }}>
+              Make suitable structure for your commercial farm
+            </p>
           </div>
         </div>
       </div>
